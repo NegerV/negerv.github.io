@@ -33,7 +33,7 @@ aside:
 
 由上述架构可知，我们主要配置博客信息的地方在于**_config.yml**，并在**_posts**文件夹下写博客(markdown格式)
 
-<img src="img/cs/image-20230424204450251.png" alt="image-20230424204450251" />
+<img src="../../../img/cs/image-20230424204450251.png" alt="image-20230424204450251" />
 
 <center><font size ='2'>没错就是这俩倒霉蛋</font></center>
 
