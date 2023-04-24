@@ -14,7 +14,7 @@ aside:
 
 注意：本教程基于配置于github上的github page建站（就是用Github做服务器啦）
 
-首先，先创建一个类似于 `{{用户名}}.github.io`的仓库
+首先，先创建一个类似于 `\{{用户名\}}.github.io`的仓库
 
 然后git clone下[TeXT项目](https://github.com/kitian616/jekyll-TeXt-theme)
 
@@ -33,7 +33,7 @@ aside:
 
 由上述架构可知，我们主要配置博客信息的地方在于**_config.yml**，并在**_posts**文件夹下写博客(markdown格式)
 
-<img src=".\img\image-20230424204450251.png" alt="image-20230424204450251" />
+<img src="img/cs/image-20230424204450251.png" alt="image-20230424204450251" />
 
 <center><font size ='2'>没错就是这俩倒霉蛋</font></center>
 
@@ -70,9 +70,9 @@ p.s. 一个小问题在于，你需要到`_data\locale.yml`下更改你的Blog�
 
  
 
-在[目录结构](http://jekyllcn.com/docs/structure/)介绍中说明过，**所有的文章都在 */_posts* 文件夹中**。这些文件可以用 Markdown 或 HTML 编写。只要文件中有 YAML 头信息，它们就会从源格式转化成 HTML 页面，从而成为你的静态网站的一部分。
+前文提到，**所有的文章都在 */_posts* 文件夹中**。这些文件可以用 Markdown 或 HTML 编写。只要文件中有 YAML 头信息，它们就会从源格式转化成 HTML 页面，从而成为你的静态网站的一部分。
 
-## 创建文章
+### 创建文章
 
 发表一篇新文章，你所需要做的就是在 */_posts* 文件夹中创建一个新的文件。文件名的命名非常重要。Jekyll 要求一篇文章的文件名遵循下面的格式：
 
@@ -87,13 +87,13 @@ p.s. 一个小问题在于，你需要到`_data\locale.yml`下更改你的Blog�
 2012-09-12-how-to-write-a-blog.markdown
 ```
 
-## 内容相关
+### 内容相关
 
 所有博客文章顶部必须有一段 YAML 头信息(YAML front-matter)。
 
 为了提高文章的阅读和书写体验，TeXt 在 Markdown 原有的基础上做了一些增强。
 
-### YAML 头信息
+#### YAML 头信息
 
 ```
 ---
@@ -106,3 +106,4 @@ mathjax: true
 在 `---` 之间你可以设置属性的值，可以把它们看作页面的配置，这些配置会覆盖在 *_config.yml* 文件中设置的全局配置。
 
 除去 Jekyll 自定义的变量外，TeXt 也定义了一些额外的变量，详情请戳[布局](https://tianqi.name/jekyll-TeXt-theme/docs/zh/layouts)。
+
