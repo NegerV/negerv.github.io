@@ -14,7 +14,7 @@ aside:
 
 注意：本教程基于配置于github上的github page建站（就是用Github做服务器啦）
 
-首先，先创建一个类似于 `\{{用户名\}}.github.io`的仓库
+首先，先创建一个类似于 `{用户名}.github.io`的仓库
 
 然后git clone下[TeXT项目](https://github.com/kitian616/jekyll-TeXt-theme)
 
@@ -40,7 +40,7 @@ aside:
 一般我们要在`_config.yml`内更改以下项：
 
 - Site Settings (网页设置)
-  - text_skin：想改主页样式可以在这里设置(https://kitian616.github.io/jekyll-TeXt-theme/docs/zh/configuration#皮肤)
+  - text_skin：想改主页样式可以在这里[设置](https://kitian616.github.io/jekyll-TeXt-theme/docs/zh/configuration#%E7%9A%AE%E8%82%A4)
   - title：不会有人不改Blog标题吧，不会吧不会吧（真的不会）
 - author (博客所有者信息)
   - name：博客主名
@@ -49,7 +49,7 @@ aside:
   - github：github用户名（方便跳转到Github主页）
   - ...
 - GitHub Repository（如果你的站点部署在Github上，那么这一点非常重要）
-  - repository：填写你的仓库地址，就是那个`{{用户名}}.github.io`
+  - repository：填写你的仓库地址，就是那个`{用户名}.github.io`
   - repository_tree：仓库树，看准你的仓库推送位置（现在从master都变为main了）
 
 p.s. 一个小问题在于，你需要到`_data\locale.yml`下更改你的Blog日期（不然会闹出Blog从过去产生的笑话） 
@@ -70,7 +70,7 @@ p.s. 一个小问题在于，你需要到`_data\locale.yml`下更改你的Blog�
 
  
 
-前文提到，**所有的文章都在 */_posts* 文件夹中**。这些文件可以用 Markdown 或 HTML 编写。只要文件中有 YAML 头信息，它们就会从源格式转化成 HTML 页面，从而成为你的静态网站的一部分。
+前文提到，**所有的文章都在`/_posts`文件夹中**。这些文件可以用 Markdown 或 HTML 编写。只要文件中有 YAML 头信息，它们就会从源格式转化成 HTML 页面，从而成为你的静态网站的一部分。
 
 ### 创建文章
 
